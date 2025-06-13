@@ -1,0 +1,15 @@
+package _09_Utente_e_Permessi;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		Utente U1 = new Admin("Capitano", "IlCapitano@gmail.com");
+		
+		input.close();
+	}
+
+}

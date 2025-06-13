@@ -1,0 +1,18 @@
+package _09_Utente_e_Permessi;
+
+import java.util.ArrayList;
+
+public class Admin extends Utente{
+
+	Admin(String username, String email) {
+		super(username, email);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public ArrayList<String> getPermessi() {
+		// TODO Auto-generated method stub
+		return "READ", "WRITE", "DELETE";
+	}
+
+}
