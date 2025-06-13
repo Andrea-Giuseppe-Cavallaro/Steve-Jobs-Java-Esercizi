@@ -1,0 +1,6 @@
+package _07_geometria;
+
+public abstract class Forma {
+public float calcolaArea() {return 0;}
+public float calcolaPerimetro() {return 0;
+}

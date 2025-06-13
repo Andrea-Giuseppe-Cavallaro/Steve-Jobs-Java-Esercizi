@@ -1,0 +1,19 @@
+package _07_geometria;
+
+public class Triangolo extends Forma{
+	private float latoA;
+	private float latoB;
+	private float latoC;
+	
+	public Triangolo(float latoA, float latoB, float latoC) {
+		this.latoA = latoA;
+	}
+	
+	@Override
+	public float calcolaArea() {
+		double area;
+		
+		return area;
+	}
+	
+}

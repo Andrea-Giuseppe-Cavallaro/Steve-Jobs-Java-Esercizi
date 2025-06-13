@@ -1,0 +1,11 @@
+package _07_geometria;
+
+public class Cerchio extends Forma{
+	private double raggio;
+	private double piGreco;
+	
+	public Cerchio(double raggio) {
+		this.raggio = raggio;
+		this.piGreco = 3.14;
+	}
+}

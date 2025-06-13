@@ -1,0 +1,10 @@
+package _07_geometria;
+
+public class Quadrato extends Forma{
+	private float latoA;
+	private float latoB;
+	private float latoC;
+	private float latoD;
+	
+	
+}

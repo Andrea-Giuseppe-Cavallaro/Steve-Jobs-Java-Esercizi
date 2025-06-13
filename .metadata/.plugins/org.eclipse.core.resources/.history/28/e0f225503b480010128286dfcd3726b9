@@ -1,0 +1,11 @@
+package _08_Animali;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Rifugio rigugio = new Rifugio();
+		Animale cane = new Cane("Fido");
+		Animale gatto = new Gatto("Lucifero");
+	}
+
+}

@@ -1,0 +1,22 @@
+package _07_geometria;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner inserisci = new Scanner(System.in);
+		System.out.print("Inserisci i lati del triangolo: ");
+		inserisci.nextDouble();
+		
+		
+		Forma triangolo = new Triangolo(10 ,20, 30, 40, 50);
+		Forma quadrato = new Quadrato(10.10);
+		Forma cerchio = new Cerchio(100.50);
+		
+		System.out.println("Area triangolo: " + triangolo.calcolaArea() + "\nPerimetro triangolo: " + triangolo.calcolaPerimetro());
+		System.out.println("\nArea quadrato: " + quadrato.calcolaArea() + "\nPerimetro quadrato: " + quadrato.calcolaPerimetro());
+		System.out.println("\nArea cerchio: " + cerchio.calcolaArea() + "\nPerimetro cerchio: " + cerchio.calcolaPerimetro());
+	}
+
+}

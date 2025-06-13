@@ -1,0 +1,23 @@
+package _07_geometria;
+
+public class Quadrato extends Forma{
+	private float lato;
+
+	public Quadrato(float lato) {
+		this.lato = lato;
+	}
+	
+	@Override
+	public float calcolaArea() {
+		float area;
+		area = lato * lato;
+		return area;
+	}
+	
+	@Override
+	public float calcolaPerimetro() {
+		float perimetro;
+		perimetro = lato * 4;
+		return perimetro;
+	}
+}
