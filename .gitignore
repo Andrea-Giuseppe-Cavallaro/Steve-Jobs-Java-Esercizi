@@ -17,3 +17,22 @@ build/
 # System files
 .DS_Store
 Thumbs.db
+
+# Compilati Java
+*.class
+
+# Cartelle di output (bin, build, ecc.)
+bin/
+build/
+
+# Configurazioni specifiche di Eclipse
+*.classpath
+*.project
+.settings/
+
+# File temporanei e di sistema
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
