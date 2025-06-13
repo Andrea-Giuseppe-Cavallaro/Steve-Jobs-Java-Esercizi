@@ -1,5 +1,0 @@
-package _07_geometria;
-
-public abstract class Forma {
-public int calcolaArea() {return 0;}
-}

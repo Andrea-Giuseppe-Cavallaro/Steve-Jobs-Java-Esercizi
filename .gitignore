@@ -1,0 +1,19 @@
+# Eclipse metadata
+.metadata/
+.settings/
+*.launch
+
+# Compiled class files
+*.class
+
+# Output folders
+/bin/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db

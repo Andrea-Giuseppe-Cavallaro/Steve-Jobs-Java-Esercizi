@@ -1,6 +1,0 @@
-package _09_Utente_e_Permessi;
-
-public abstract class Utente {
-	private String username;
-	private String email;
-}

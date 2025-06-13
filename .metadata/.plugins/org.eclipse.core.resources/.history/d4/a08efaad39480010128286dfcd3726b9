@@ -1,5 +1,0 @@
-package _08_Animali;
-
-public class Rifugio {
-	private ArrayList<Animale> animali;
-}

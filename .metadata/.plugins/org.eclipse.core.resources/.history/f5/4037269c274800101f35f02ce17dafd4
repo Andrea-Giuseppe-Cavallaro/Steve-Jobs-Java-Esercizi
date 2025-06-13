@@ -1,7 +1,0 @@
-package _07_geometria;
-
-public class Triangolo {
-private float latoA;
-private float latoB;
-private float latoC;
-}
