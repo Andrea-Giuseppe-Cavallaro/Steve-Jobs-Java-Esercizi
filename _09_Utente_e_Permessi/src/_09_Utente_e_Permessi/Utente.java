@@ -8,4 +8,6 @@ public abstract class Utente {
 		this.username = username;
 		this.email = email;
 	}
+	
+	
 }
