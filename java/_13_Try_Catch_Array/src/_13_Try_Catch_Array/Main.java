@@ -19,10 +19,11 @@ public class Main {
 		try {
 			String nome = array[indice];
 			System.out.println(nome);
-		} catch (Exception e) {
-			System.out.println("Non esiste l'indice inserito");
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("Non esiste l'indice inserito" + e);
 		} finally {
 			input.close();
 		}
+		
 	}
 }
