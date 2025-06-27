@@ -14,8 +14,7 @@ public class Carrello {
 	}
 	
 	public void aggiungiProdotto(String nome, String quantità) {
-		String nuovo = nome.concat(quantità);
-		prodotti.add(nuovo);
+		prodotti.add(nome + " " + quantità);
 	}
 	
 	public void stampaProdotti() {
