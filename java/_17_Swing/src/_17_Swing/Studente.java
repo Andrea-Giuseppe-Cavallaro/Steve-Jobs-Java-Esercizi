@@ -16,8 +16,8 @@ public class Studente extends Persona{
 		this.matricola = matricola;
 	}
 	
-	@Override
-	public void stampa(){
-			System.out.println("Nome: " + getNome() + "\nCognome: " + getCognome() + "\nMatricola: " + matricola);
-		}		
+    @Override
+    public String toString() {
+        return getNome() + " " + getCognome() + " - Matricola: " + matricola;
+    }
 }

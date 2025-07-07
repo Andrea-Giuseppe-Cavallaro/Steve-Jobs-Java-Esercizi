@@ -17,7 +17,7 @@ public class Docente extends Persona {
 	}
 
 	@Override
-	public void stampa() {
-		System.out.println("Nome: " + getNome() + "\nCognome: " + getCognome() + "\nMateria: " + materia);
-	}
+    public String toString() {
+        return getNome() + " " + getCognome() + " - Materia: " + materia;
+    }
 }

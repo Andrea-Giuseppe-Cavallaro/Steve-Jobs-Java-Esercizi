@@ -24,5 +24,7 @@ package _17_Swing;
 		public void setCognome(String cognome) {
 			this.cognome = cognome;
 		}
-		public abstract void stampa(); 
+
+		public abstract String toString();
+		
 	}
